@@ -21,3 +21,4 @@ if __name__ == '__main__':
 	translate_results = json.loads(html)
 	translate_results = translate_results['translateResult'][0][0]['tgt']
 	print(translate_results)
+	print('hhh')
